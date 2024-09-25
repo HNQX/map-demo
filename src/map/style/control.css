@@ -1,0 +1,55 @@
+.cesium-control-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    margin: 20px;
+}
+
+
+.cesium-control-div .item {
+    background-color: rgb(255, 255, 255);
+    height: 28px;
+    width: 28px;
+    margin-top: 10px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 2px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .6);
+}
+
+.cesium-control-div .item svg {
+    width: 20px;
+    height: 20px;
+}
+
+.cesium-control-div .item:hover svg path{
+    fill: #1088f2;
+}
+
+.cesium-control-div .item.hover svg path{
+    fill: #1088f2;
+}
+
+.cesium-control-div .item .switch {
+    color: #1088f2;
+}
+
+.cesium-control-div .item .switch.hidden{
+    display: none;
+}
+
+.cesium-control-div .menu{
+    transition: all 2s;
+    position: fixed;
+    right: 100px;
+    background: #cccccc;
+}
+
+.cesium-control-div .menu.hidden{
+    display: none;
+}
