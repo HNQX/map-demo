@@ -58,6 +58,10 @@ onMounted(() => {
     }
   })
 
+
+  const line = map.getRandomLineString()
+  console.log(line);
+
   air = map.air({
     onSelect(e) {
       console.log(e)
